@@ -6,54 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin Profile</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    /> -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
     />
   </head>
   <body>
     <!-------------- header -------------- -->
-    <div class="header">
-      <div class="header_left">
-        <img class="imgpp" src="./download.png" alt="linkedin logo" />
-        <div class="search">
-          <img class="serchicon" src="./icons8-search-24.png" alt="" />
-          <input type="text" class="searchinput" value="search" />
+    <div class="maindivision">
+      <div class="header">
+        <div class="header_left">
+          <img class="imgpp" src="./download.png" alt="linkedin logo" />
+          <div class="search">
+            <img class="serchicon" src="./icons8-search-24.png" alt="" />
+            <input type="text" class="searchinput" value="search" />
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="home common">
+            <img src="./icons8-home-24.png" alt="" />
+            <p>Home</p>
+          </div>
+          <div class="network common">
+            <img src="./icons8-family-two-men-16.png" alt="" />
+            <p>My Network</p>
+          </div>
+          <div class="job common">
+            <img src="./icons8-briefcase-16.png" alt="" />
+            <p>Jobs</p>
+          </div>
+          <div class="messaging common">
+            <img src="./icons8-topic-16.png" alt="" />
+            <p>Messaging</p>
+          </div>
+          <div class="notification common">
+            <img src="./icons8-notification-16.png" alt="" />
+            <p>Notifications</p>
+          </div>
+        </div>
+        <div class="header_right2">
+          <div class="premium">
+            <div class="spldd">
+              <img class="ppimg" src="./image.png" alt="" />
+              <div class="dropdown">
+                <button class="btn dropdown-toggle dropbtn"></button>
+                <div class="dropdown-content">
+                  <a href="#">Account</a>
+                  <a href="#">Manage</a>
+                  <a href="#">Sign out</a>
+                </div>
+              </div>
+            </div>
+            <p>Try premium Free for Month</p>
+          </div>
         </div>
       </div>
-      <div class="header_right">
-        <div class="home common">
-          <img src="./icons8-home-24.png" alt="" />
-          <p>Home</p>
-        </div>
-        <div class="network common">
-          <img src="./icons8-family-two-men-16.png" alt="" />
-          <p>My Network</p>
-        </div>
-        <div class="job common">
-          <img src="./icons8-briefcase-16.png" alt="" />
-          <p>Jobs</p>
-        </div>
-        <div class="messaging common">
-          <img src="./icons8-topic-16.png" alt="" />
-          <p>Messaging</p>
-        </div>
-        <div class="notification common">
-          <img src="./icons8-notification-16.png" alt="" />
-          <p>Notifications</p>
-        </div>
-      </div>
-      <div class="header_right2">
-        <div class="premium">
-          <img class="ppimg" src="./image.png" alt="" />
-          <p>Try premium Free for Month</p>
-        </div>
-      </div>
-    </div>
 
-    <!---------------- main body --------------- -->
-    <!--------------- left side bar -------------- -->
-    <div class="mainbody">
+      <!---------------- main body --------------- -->
+      <!--------------- left side bar -------------- -->
+
       <div class="leftsidebar">
         <div class="leftfirstchild">
           <div class="one">
@@ -234,10 +250,14 @@
           </div>
 
           <ul class="ulone">
-            <div class="ulhovere"><li class="ullione">Indian crosses 3,58,974 daily cases</li>
-            <dt class="ulcommont">Top news 9874 - reviews</dt></div>
-          <div class="ulhovere"><li class="ullione">Indian crosses 3,58,974 daily cases</li>
-            <dt class="ulcommont">Top news 9874 - reviews</dt></div>
+            <div class="ulhovere">
+              <li class="ullione">Indian crosses 3,58,974 daily cases</li>
+              <dt class="ulcommont">Top news 9874 - reviews</dt>
+            </div>
+            <div class="ulhovere">
+              <li class="ullione">Indian crosses 3,58,974 daily cases</li>
+              <dt class="ulcommont">Top news 9874 - reviews</dt>
+            </div>
           </ul>
         </div>
         <div class="rightthirdbar">
@@ -246,18 +266,30 @@
             <div><img src="./icons8-info-32.png" alt="" /></div>
           </div>
           <div class="unilone">
-            <div><img class="uniliverimg" src="./unilever.png" alt=""></div>
-            <div><h4>Unilever</h4><p>Company - Consumer Goods</p><button class="btnn">+Follow</button></div>
+            <div><img class="uniliverimg" src="./unilever.png" alt="" /></div>
+            <div>
+              <h4>Unilever</h4>
+              <p>Company - Consumer Goods</p>
+              <button class="btnn">+Follow</button>
+            </div>
           </div>
-          <hr>
+          <hr />
           <div class="unilone">
-            <div><img class="uniliverimg" src="./download.png" alt=""></div>
-            <div><h4>LinkedIn</h4><p>Company - internet</p><button class="btnn">+Follow</button></div>
+            <div><img class="uniliverimg" src="./download.png" alt="" /></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>Company - internet</p>
+              <button class="btnn">+Follow</button>
+            </div>
           </div>
-          <hr>
+          <hr />
           <div class="unilone">
-            <div><img class="uniliverimg" src="./myntra.jpg" alt=""></div>
-            <div><h4>Myntra</h4><p>Company - internet</p><button class="btnn">+Follow</button></div>
+            <div><img class="uniliverimg" src="./myntra.jpg" alt="" /></div>
+            <div>
+              <h4>Myntra</h4>
+              <p>Company - internet</p>
+              <button class="btnn">+Follow</button>
+            </div>
           </div>
         </div>
       </div>
