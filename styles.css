@@ -92,6 +92,7 @@
 }
 
 .search {
+  display: flex;
   height: 40px;
   width: auto;
   background-color: #dce6f1;
@@ -101,6 +102,9 @@
 
 .serchicon {
   vertical-align: middle;
+  height: 20px;
+  margin: auto;
+  padding-left: 10px;
 }
 
 .searchinput {
